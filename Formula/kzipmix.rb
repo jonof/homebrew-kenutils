@@ -1,8 +1,8 @@
 class Kzipmix < Formula
     desc "Ken Silverman's ZIP file optimisation utilities"
-    homepage "http://www.jonof.id.au/kenutils"
-    url "http://static.jonof.id.au/dl/kenutils/kzipmix-20150319-darwin.tar.gz"
-    sha256 "0477c1b300cc95f629bf9a27b2b3d8ddac64249f364641f52a9ee04ca00722c0"
+    homepage "https://www.jonof.id.au/kenutils"
+    url "https://www.jonof.id.au/files/kenutils/kzipmix-20200115-macos.zip"
+    sha256 "0013ad12ee9676552dc28b900d94066132586e68cc236f9e9c38e0f18968e102"
 
     def install
         mkdir_p "#{prefix}/bin"

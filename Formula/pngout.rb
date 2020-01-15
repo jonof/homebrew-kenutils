@@ -1,8 +1,8 @@
 class Pngout < Formula
     desc "Ken Silverman's PNG optimisation utility"
-    homepage "http://www.jonof.id.au/kenutils"
-    url "http://static.jonof.id.au/dl/kenutils/pngout-20150920-darwin.tar.gz"
-    sha256 "f3fdd1e2c3f1f1fa886b3b302d64e5e9285cf917ddd43dfd75fb3ff156b66442"
+    homepage "https://www.jonof.id.au/kenutils"
+    url "https://www.jonof.id.au/files/kenutils/pngout-20200115-macos.zip"
+    sha256 "3272fa947eeafc1ac0086e1f14935f9efa21d090a555e6892255fe5c88f6686e"
 
     def install
         mkdir_p "#{prefix}/bin"
